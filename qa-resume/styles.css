@@ -1,0 +1,52 @@
+/* Styles for the QA resume page */
+:root{
+  --bg:#f6f9fc;
+  --card:#ffffff;
+  --text:#1f2937;
+  --muted:#6b7280;
+  --accent:#2b6ef6;
+  --shadow:0 6px 20px rgba(18, 22, 43, 0.08);
+}
+
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;margin:0;color:var(--text);background:var(--bg);}
+.container{max-width:900px;margin:0 auto;padding:24px}
+.page-header{background:linear-gradient(90deg, #fff 60%, #f2f7ff 100%);box-shadow:var(--shadow);}
+.profile{display:flex;gap:16px;align-items:center;padding:20px}
+.avatar{width:96px;height:96px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#7dd3fc);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:28px}
+.contact .name{margin:0;font-size:22px}
+.role{margin:4px 0;color:var(--muted)}
+.contact-list{list-style:none;padding:0;margin:8px 0 0 0}
+.contact-list li{margin:4px 0;color:var(--muted)}
+.controls{display:flex;gap:8px;justify-content:flex-end;padding:0 20px 16px 20px}
+.controls button{background:transparent;border:1px solid var(--accent);color:var(--accent);padding:8px 10px;border-radius:6px;cursor:pointer}
+
+main{padding:24px 16px}
+section{background:var(--card);border-radius:10px;padding:18px;margin-bottom:14px;box-shadow:var(--shadow)}
+section h2{margin:0 0 8px 0}
+.job h3{margin:0}
+.job .meta{color:var(--muted);font-size:14px;margin-bottom:8px}
+.skill-list{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0}
+.skill-list li{background:#eef2ff;padding:8px 12px;border-radius:8px;color:#1e40af}
+.site-footer{padding:10px 0;text-align:center;color:var(--muted)}
+
+/* Responsive */
+@media(min-width:900px){
+  .contact{display:flex;flex-direction:column}
+}
+
+/* Dark theme */
+body.dark{--bg:#0b1220;--card:#071020;--text:#e6eef8;--muted:#9aa9c2;--accent:#6aa0ff}
+
+/* Small flourish */
+[aria-hidden="true"]{user-select:none}
+
+/* Hidden hints for easter egg discovery */
+.eh-hint{display:none}
+.eh-hint.visible{display:block;color:var(--accent);font-weight:600}
+
+/* Accessibility */
+button:focus{outline:3px solid rgba(43,110,246,0.2)}
+
+/* Printing */
+@media print{.controls, .avatar{display:none} body{background:white}}

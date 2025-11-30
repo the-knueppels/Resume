@@ -1,0 +1,51 @@
+{
+  "name": "thekn",
+  "role": "Senior QA Engineer",
+  "email": "you@example.com",
+  "phone": "(555) 555-5555",
+  "address": "820 Hiawatha Trl Waterlo WI 53594",
+  "website": "https://example.com",
+  "github": "https://github.com/yourhandle",
+  "summary": "Senior QA Engineer with extensive experience in test automation, test reliability engineering, and scaling QA practices to support high-velocity teams. Focused on operational excellence, maintainable test infrastructure, and measurable quality improvements.",
+  "experience": [
+    {
+      "title": "Senior QA Engineer",
+      "company": "Company Name",
+      "timeframe": "2018 — Present",
+      "bullets": [
+        "Led QA for a cross-functional SaaS product with thousands of daily active users and quarterly feature releases.",
+        "Architected and implemented a modular test automation framework (Playwright + REST + contract tests), integrated into CI, increasing automation coverage by 60%.",
+        "Reduced test suite flakiness by 45% using deterministic test design, environment isolation, reliable test data patterns, and tagging strategies for parallel execution.",
+        "Designed and implemented performance and load testing processes for key user workflows; provided actionable findings that improved response times by 18%.",
+        "Mentored a team of QA engineers and led initiatives to adopt quality metrics and shift-left testing practices."
+      ]
+    },
+    {
+      "title": "QA Engineer",
+      "company": "Company Name",
+      "timeframe": "2012 — 2018",
+      "bullets": [
+        "Built and maintained automated test suites for web and API layers, reducing manual test time by 30% and improving release confidence.",
+        "Introduced behavior-driven testing practices (BDD) to improve communication between product, dev, and QA teams, accelerating feature delivery.",
+        "Partnered with SRE and product teams to define SLOs and surfaced drift via synthetic monitoring and end-to-end tests.",
+        "Improved test coverage by migrating legacy manual tests into automated suites and documenting test rationale for future maintenance."
+      ]
+    }
+  ],
+  "skills": [
+    "Test Automation (Playwright, Selenium, Cypress)",
+    "CI/CD Pipelines & Test Orchestration (GitHub Actions, Jenkins)",
+    "API & Contract Testing (Postman, Pact)",
+    "Performance & Load Testing (k6, JMeter)",
+    "Monitoring & Reliability (SLOs, synthetic tests)",
+    "Test Data Engineering & Flakiness Reduction"
+  ],
+  "education": "B.S. Computer Science — University Name — 2012",
+  "projects": [
+    "Open-source Test Harness: a CLI and UI for orchestrating multiple suites and aggregating results, allowing targeted reruns and flaky-test diagnosis.",
+    "Test Data Generator: a toolkit to produce deterministic, realistic datasets for automated tests to remove data-related flakiness.",
+    "CI/CD Orchestration Scripts: developed maintainable scripts to parallelize suites and reduce total test-run time by 40%."
+  ],
+  "certifications": ["ISTQB Advanced Test Manager (example)", "Certified Scrum Master (example)"],
+  "linkedin": "https://linkedin.com/in/your-handle"
+}
